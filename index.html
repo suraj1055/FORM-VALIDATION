@@ -17,45 +17,48 @@
         <div class="header">
             <h2>REGISTRATION FORM</h2>
         </div>
-        <form action="" class="form" id="form">
+        <form name="contact" method="POST" data-netlify="true" class="form" id="form">
+            <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
             <div class="form-control">
                 <label for="Username">Username</label>
-                <input type="text" id="Username" placeholder="Enter Your Full Name" autocomplete="off">
+                <input type="text" name="Username" id="Username" placeholder="Enter Your Full Name" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error msg</small>
             </div>
             <div class="form-control">
                 <label for="Email">Email</label>
-                <input type="email" id="Email" placeholder="Enter Your Email" autocomplete="off">
+                <input type="email" name="Email" id="Email" placeholder="Enter Your Email" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error msg</small>
             </div>
             <div class="form-control">
                 <label for="Mobile">Mobile Number</label>
-                <input type="number" id="Mobile" placeholder="Enter Your Mobile Number" autocomplete="off">
+                <input type="number" name="Mobile" id="Mobile" placeholder="Enter Your Mobile Number" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error msg</small>
             </div>
             <div class="form-control">
                 <label for="Age">Age</label>
-                <input type="number" id="Age" placeholder="Enter Your Age" autocomplete="off">
+                <input type="number" name="Age" id="Age" placeholder="Enter Your Age" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error msg</small>
             </div>
             <div class="form-control">
                 <label for="Password">Password</label>
-                <input type="password" id="Password" placeholder="Enter Your Password" autocomplete="off">
+                <input type="password" name="Password" id="Password" placeholder="Enter Your Password" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error msg</small>
             </div>
             <div class="form-control">
                 <label for="CPassword">Confirm Password</label>
-                <input type="password" id="CPassword" placeholder="Enter Your Confirm Password" autocomplete="off">
+                <input type="password" name="CPassword" id="CPassword" placeholder="Enter Your Confirm Password" autocomplete="off">
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error msg</small>
