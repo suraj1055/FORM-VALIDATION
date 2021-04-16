@@ -11,7 +11,7 @@ const CPassword = document.getElementById("CPassword");
 //Events
 
 Form.addEventListener("submit", (event) => {
-    event.preventDefault();
+    // event.preventDefault();
     validate();
 })
 
