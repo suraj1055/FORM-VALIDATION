@@ -1,11 +1,19 @@
 // Accessing all the elements
 
+const Form = document.getElementById("form");
 const Username = document.getElementById("Username");
 const Email = document.getElementById("Email");
 const Mobile = document.getElementById("Mobile");
 const Age = document.getElementById("Age");
 const Password = document.getElementById("Password");
 const CPassword = document.getElementById("CPassword");
+
+//Events
+
+Form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    validate();
+})
 
 //Defining the isEmail function
 
